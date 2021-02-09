@@ -97,3 +97,24 @@ __Where to start?__
 
 
 __Creating Front-end using Angular__
+1. Command to start Angular project: cd to directory where your project will be created and then:
+
+    - ng new employeemanagerfrontend
+
+2. Design:
+
+  CLIENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SERVER
+ UI ===>  Component ===> Service (HTTP Requests) ===> Rest Controller ===> ... ===> Database
+
+3. cd into the directory and type __ng serve__ to run 
+
+4. Mock data that comes from the backend:
+
+    - src > app > new file > fileName.ts (Employee.ts)
+
+        - This file contains the properties (of Employee) that backend is returning
+
+            - Mirror what the data looks like when it comes from the backend
+5. Create service file 
+
+    - src > app > new file > fileName.service.ts 
