@@ -73,3 +73,27 @@ __Where to start?__
 
         - Create Mapping for CRUD operations that completes the task by calling Service class
 
+10. Testing:
+
+    - Run your application
+    - Postman
+
+        - Make API call and test if you are getting expected result or not
+
+    - HTTpie:
+
+        - Command Line tool to test REST APIs
+
+            - http GET http://localhost:8080/api/employee/all
+            - For Post requests: Create a test file that contains data and then point the file while making the request
+
+                - http POST :8080/api/employee/add < testAPI.json
+
+                    - testAPI.json is the file I created
+            
+            - For PUT request:
+
+                - http PUT :8080/api/employee/update < testAPI.json
+
+
+__Creating Front-end using Angular__

@@ -9,7 +9,7 @@ import sharma.bimarsh.employeemanager.service.EmployeeService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/api/employee")
 public class EmployeeResource {
     private final EmployeeService employeeService;
 

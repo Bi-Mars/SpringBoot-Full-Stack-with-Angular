@@ -1,0 +1,9 @@
+ {
+        "id":2,
+        "name": "Timmy Trumpet",
+        "email": "bimarsh@testapi.com",
+        "jobTitle": "DJ",
+        "phone": "55569287234",
+        "profileUrl": "https://bootdev.com/img/Content/avatar/avatar3.png",
+        "employeeCode": "c5d7a2fc-c777-4b4f-90c5-af83f698d57f"
+    }
