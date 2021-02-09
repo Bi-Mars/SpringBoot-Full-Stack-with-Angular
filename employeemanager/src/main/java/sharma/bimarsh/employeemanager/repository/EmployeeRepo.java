@@ -10,5 +10,5 @@ import java.util.Optional;
  */
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {
     void deleteEmployeeById(Long id);
-    Optional findEmployeeById(Long id); // why optional? maybe employee does not exist for given id
+    Optional<Employee> findEmployeeById(Long id); // why optional? maybe employee does not exist for given id
 }

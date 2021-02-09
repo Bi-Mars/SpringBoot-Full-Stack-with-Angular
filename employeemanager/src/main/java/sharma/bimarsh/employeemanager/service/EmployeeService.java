@@ -2,6 +2,7 @@ package sharma.bimarsh.employeemanager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import sharma.bimarsh.employeemanager.exception.UserNotFoundException;
 import sharma.bimarsh.employeemanager.model.Employee;
 import sharma.bimarsh.employeemanager.repository.EmployeeRepo;
 
