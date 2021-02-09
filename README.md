@@ -54,4 +54,6 @@ __Where to start?__
 
         - Why?
             - JpaRepository is an Interface and has methods definition for common database operations like findAll,saveAll...
+6. Create a service package and that provides services to employee manager.
 
+    - All CRUD operations logic goes here
