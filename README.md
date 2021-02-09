@@ -48,3 +48,10 @@ __Where to start?__
 
     - CREATE DATABASE employeemanager;
 4. Run the application
+5. Create Repository package
+
+    i. Create an Interface that extends JpaRepository<model/entityName, dataType-of-primary-key>
+
+        - Why?
+            - JpaRepository is an Interface and has methods definition for common database operations like findAll,saveAll...
+
